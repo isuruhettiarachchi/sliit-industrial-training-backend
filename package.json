@@ -6,6 +6,8 @@
   "scripts": {
     "setup": "npm install",
     "start": "node build/index.js",
+    "postinstall": "npm run tsc",
+    "tsc": "tsc",
     "build": "tsc",
     "test": "echo \"Error: no test specified\""
   },
